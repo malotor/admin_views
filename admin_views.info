@@ -9,3 +9,5 @@ dependencies[] = views
 dependencies[] = views_bulk_operations
 dependencies[] = views_linkarea
 dependencies[] = publication_date
+dependencies[] = i18n
+dependencies[] = i18n_node
