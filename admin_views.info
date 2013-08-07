@@ -1,0 +1,11 @@
+name = Administration views
+description = This module provides some administration views
+core = 7.x
+package = DevelClub
+version = 7.x-1.0
+files[] = views/admin_views.views_default.inc
+files[] = admin_views.module
+dependencies[] = views
+dependencies[] = views_bulk_operations
+dependencies[] = views_linkarea
+dependencies[] = publication_date

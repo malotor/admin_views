@@ -1,0 +1,17 @@
+<?php
+/**
+* @file
+* Author hcar module views
+* This module provides some views related to author_hcard module. */
+
+
+/**
+* Implements hook_block_info().
+*/
+function admin_views_views_api() {
+  return array(
+    'api' => 3,
+    'path' => drupal_get_path('module', 'admin_views') . '/views',
+    'template path' => drupal_get_path('module', 'admin_views') . '/themes',
+  );
+}
